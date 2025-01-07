@@ -2,58 +2,68 @@ import React, { useState } from 'react'
 import {Link} from "react-router-dom"
 import { LuSlidersHorizontal } from "react-icons/lu";
 
+import pant1 from "/src/img/pant1.avif"
+import pant2 from "/src/img/pant2.jpg"
+import pant3 from "/src/img/pant3.jpg"
+import pant4 from "/src/img/pant4.webp"
+import pant5 from "/src/img/pant5.webp"
+import pant6 from "/src/img/pant6.webp"
+import pant7 from "/src/img/pant7.webp"
+import pant8 from "/src/img/pant8.webp"
+import pant9 from "/src/img/pant9.jpg"
+import pant10 from "/src/img/pant10.jpg"
 
 const Pant = () => {
 
 const shirts_colleaction = [
 {
-image:'/src/img/pant1.avif',
+image:pant1,
 name:"a",
 rate: "Rs.999.00"
 
 },
 {
-  image:'/src/img/pant2.jpg',
+  image:pant2,
   name:"b",
   rate: "Rs.799.00"
   },
   {
-    image:'/src/img/pant3.jpg',
+    image:pant3,
     name:"c",
     rate: "Rs.699.00"
     },
     {
-      image:'/src/img/pant4.webp',
+      image:pant4,
       name:"plain Formal shirt",
       rate: "Rs.1199.00"
       },
       {
-        image:'/src/img/pant5.webp',
+        image:pant5,
         name:"plain Formal shirt",
         rate: "Rs.650.00"
         },
         {
-          image:'/src/img/pant6.webp',
+          image:pant6,
           name:"plain Formal shirt",
           rate: "Rs.500.00"
           },
           {
-            image:'/src/img/pant7.webp',
+            image:pant7,
             name:"z",
             rate: "Rs.1499.00"
             },
             {
-              image:'/src/img/pant8.webp',
+              image:pant8,
               name:"m",
               rate: "Rs.1299.00"
               },
               {
-                image:'/src/img/pant9.jpg',
+                image:pant9,
                 name:"plain Formal shirt",
                 rate: "Rs.950.00"
                 },
                 {
-                  image:'/src/img/pant10.jpg',
+                  image:pant10,
                   name:"a",
                   rate: "Rs.700.00"
                   },

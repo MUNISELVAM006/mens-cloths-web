@@ -1,59 +1,68 @@
 import React, { useState } from 'react'
 import { LuSlidersHorizontal } from "react-icons/lu";
 
-
+import tshirt1 from "/src/img/tshirt1.webp"
+import tshirt2 from "/src/img/tshirt2.jpg"
+import tshirt3 from "/src/img/tshirt3.jpg"
+import tshirt4 from "/src/img/tshirt4.jpg"
+import tshirt5 from "/src/img/tshirt5.webp"
+import tshirt6 from "/src/img/tshirt6.jpg"
+import tshirt7 from "/src/img/tshirt7.jpg"
+import tshirt8 from "/src/img/tshirt8.avif"
+import tshirt9 from "/src/img/tshirt9.webp"
+import tshirt10 from "/src/img/tshirt10.webp"
 
 const TShirts = () => {
 
 const Tshirts_colleaction = [
 {
-image:'/src/img/tshirt1.webp',
+image:tshirt1,
 name:"a",
 rate: "Rs.999.00"
 
 },
 {
-  image:'/src/img/tshirt2.jpg',
-  name:"b",
+  image:tshirt2,
+ name:"b",
   rate: "Rs.799.00"
   },
   {
-    image:'/src/img/tshirt3.jpg',
-    name:"c",
+    image:tshirt3,
+   name:"c",
     rate: "Rs.699.00"
     },
     {
-      image:'/src/img/tshirt4.jpg',
+      image:tshirt4,
       name:"plain Formal shirt",
       rate: "Rs.1199.00"
       },
       {
-        image:'/src/img/tshirt5.webp',
+        image:tshirt5,
         name:"plain Formal shirt",
         rate: "Rs.650.00"
         },
         {
-          image:'/src/img/tshirt6.jpg',
+          image:tshirt6,
           name:"plain Formal shirt",
           rate: "Rs.500.00"
           },
           {
-            image:'/src/img/tshirt7.jpg',
-            name:"z",
+            image:tshirt7,        
+             name:"z",
             rate: "Rs.1499.00"
             },
             {
-              image:'/src/img/tshirt8.avif',
+              image:tshirt8,
               name:"m",
               rate: "Rs.1299.00"
               },
               {
-                image:'/src/img/tshirt9.webp',
+                image:tshirt9,
                 name:"plain Formal shirt",
                 rate: "Rs.950.00"
                 },
                 {
-                  image:'/src/img/tshirt10.webp',
+                  image:tshirt10,
                   name:"a",
                   rate: "Rs.700.00"
                   },

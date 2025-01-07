@@ -5,7 +5,33 @@ import { FaAngleDoubleRight, FaAngleDoubleLeft } from "react-icons/fa";
 import { CiPaperplane } from "react-icons/ci";
 
 import shirt from "/src/img/shirt.jpg"
+import tshirt from "/src/img/tshirt.jpg"
+import pant from "/src/img/black pant.webp"
+import hoodie from "/src/img/Hoody.avif"
 
+import shirt1 from "/src/img/shirt1.jpg"
+import shirt2 from "/src/img/shirt2.webp"
+import shirt3 from "/src/img/shirt3.webp"
+import shirt4 from "/src/img/shirt4.webp"
+import shirt5 from "/src/img/shirt5.jpg"
+import shirt6 from "/src/img/shirt6.avif"
+import shirt7 from "/src/img/shirt7.avif"
+
+import pant1 from "/src/img/pant1.avif"
+import pant2 from "/src/img/pant2.jpg"
+import pant3 from "/src/img/pant3.jpg"
+import pant4 from "/src/img/pant4.webp"
+import pant5 from "/src/img/pant5.webp"
+import pant6 from "/src/img/pant6.webp"
+import pant7 from "/src/img/pant7.webp"
+
+import tshirt1 from "/src/img/tshirt1.webp"
+import tshirt2 from "/src/img/tshirt2.jpg"
+import tshirt3 from "/src/img/tshirt3.jpg"
+import tshirt4 from "/src/img/tshirt4.jpg"
+import tshirt5 from "/src/img/tshirt5.webp"
+import tshirt6 from "/src/img/tshirt6.jpg"
+import tshirt7 from "/src/img/tshirt7.jpg"
 
 
 const Home = () => {
@@ -66,19 +92,19 @@ const images =[
 { 
   id:2,
   name : "T-shirt",
-  image :"/src/img/tshirt.jpg",
+  image :tshirt,
   path : "/TShirts"
 },
 {
   id:3,
   name : "Polo-pant",
-  image :"/src/img/black pant.webp",
+  image :pant,
   path : "/Pant"
 },
 {
   id:4,
   name : "Sweat Hodies",
-  image :"/src/img/Hoody.avif",
+  image :hoodie,
   path : "/Hoodie"
 },
 ] 
@@ -87,34 +113,34 @@ const shirts = [
  
   
   {
-    image : "/src/img/shirt1.jpg",
+    image : shirt1,
     name:"Black Formal Pant",
     price : "Rs.600.00",
   },
   {
-    image : "/src/img/shirt2.webp",
+    image : shirt2,
     name:"Black Formal Pant",
     price : "Rs.600.00",
   },
   {
-    image : "/src/img/shirt3.webp",
+    image : shirt3,
     name:"Black Formal Pant",
     price : "Rs.600.00",
   }, {
-    image : "/src/img/shirt4.webp",
+    image : shirt4,
     name:"Black Formal Pant",
     price : "Rs.600.00",
   },
   {
-    image : "/src/img/shirt5.jpg",
+    image : shirt5,
     name:"Black Formal Pant",
     price : "Rs.600.00",
   }, {
-    image : "/src/img/shirt6.avif",
+    image : shirt6,
     name:"Black Formal Pant",
     price : "Rs.600.00",
   }, {
-    image : "/src/img/shirt7.avif",
+    image : shirt7,
     name:"Black Formal Pant",
     price : "Rs.600.00",
   },
@@ -123,37 +149,37 @@ const shirts = [
 
 const pants = [
   {
-   image : "/src/img/pant1.avif",
+   image : pant1,
     name:"a",
      price: "Rs.999.00"
   },
   {
-   image : "/src/img/pant2.jpg",
+   image : pant2,
     name:"b",
      price: "Rs.799.00"
     },
     {
-     image : "/src/img/pant3.jpg",
+     image : pant3,
       name:"c",
        price: "Rs.699.00"
       },
       {
-       image : "/src/img/pant4.webp",
+       image : pant4,
         name:"plain Formal shirt",
          price: "Rs.1199.00"
         },
         {
-         image : "/src/img/pant5.webp",
+         image : pant5,
           name:"plain Formal shirt",
            price: "Rs.650.00"
           },
           {
-           image : "/src/img/pant6.webp",
+           image : pant6,
             name:"plain Formal shirt",
              price: "Rs.500.00"
             },
             {
-             image : "/src/img/pant7.webp",
+             image : pant7,
               name:"z",
                price: "Rs.1499.00"
               }
@@ -161,38 +187,38 @@ const pants = [
 
 const Tshirts = [
 {
-  image : "/src/img/tshirt1.webp",
+  image : tshirt1,
 name:"a",
 price: "Rs.999.00"
 
 },
 {
-  image : "/src/img/tshirt2.jpg",
+  image : tshirt2,
   name:"b",
   price: "Rs.799.00"
   },
   {
-    image : "/src/img/tshirt3.jpg",
+    image : tshirt3,
     name:"c",
     price: "Rs.699.00"
     },
     {
-      image : "/src/img/tshirt4.jpg",
+      image : tshirt4,
       name:"plain Formal shirt",
       price: "Rs.1199.00"
       },
       {
-        image : "/src/img/tshirt5.webp",
+        image : tshirt5,
         name:"plain Formal shirt",
         price: "Rs.650.00"
         },
         {
-          image : "/src/img/tshirt6.jpg",
+          image : tshirt6,
           name:"plain Formal shirt",
           price: "Rs.500.00"
           },
           {
-            image : "/src/img/tshirt7.jpg",
+            image : tshirt7,
             name:"z",
             price: "Rs.1499.00"
             }

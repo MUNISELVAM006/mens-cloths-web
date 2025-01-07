@@ -1,59 +1,68 @@
 import React, { useState } from 'react'
 import { LuSlidersHorizontal } from "react-icons/lu";
 
-
+import hoodie1 from "/src/img/hoodie1.webp"
+import hoodie2 from "/src/img/hoodie2.jpeg"
+import hoodie3 from "/src/img/hoodie3.webp"
+import hoodie4 from "/src/img/hoodie4.webp"
+import hoodie5 from "/src/img/hoodie5.webp"
+import hoodie6 from "/src/img/hoodie6.webp"
+import hoodie7 from "/src/img/hoodie7.avif"
+import hoodie8 from "/src/img/hoodie8.webp"
+import hoodie9 from "/src/img/hoodie9.webp"
+import hoodie10 from "/src/img/hoodie10.jpg"
 
 const Hoodie = () => {
 
 const Hoodie_colleaction = [
 {
-image:'/src/img/hoodie1.webp',
+image:hoodie1,
 name:"a",
 rate: "Rs.999.00"
 
 },
 {
-  image:'/src/img/hoodie2.jpeg',
+  image:hoodie2,
   name:"b",
   rate: "Rs.799.00"
   },
   {
-    image:'/src/img/hoodie3.webp',
+    image:hoodie3,
     name:"c",
     rate: "Rs.699.00"
     },
     {
-      image:'/src/img/hoodie4.webp',
+      image:hoodie4,
       name:"plain Formal shirt",
       rate: "Rs.1199.00"
       },
       {
-        image:'/src/img/hoodie5.webp',
+        image:hoodie5,
         name:"plain Formal shirt",
         rate: "Rs.650.00"
         },
         {
-          image:'/src/img/hoodie6.webp',
+          image:hoodie6,
           name:"plain Formal shirt",
           rate: "Rs.500.00"
           },
           {
-            image:'/src/img/hoodie7.avif',
+            image:hoodie7,
             name:"z",
             rate: "Rs.1499.00"
             },
             {
-              image:'/src/img/hoodie8.webp',
+              image:hoodie8,
               name:"m",
               rate: "Rs.1299.00"
               },
               {
-                image:'/src/img/hoodie9.webp',
+                image:hoodie9,
                 name:"plain Formal shirt",
                 rate: "Rs.950.00"
                 },
                 {
-                  image:'/src/img/hoodie10.jpg',
+                  image:hoodie10,
                   name:"a",
                   rate: "Rs.700.00"
                   },

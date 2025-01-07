@@ -2,59 +2,68 @@ import React, { useState } from 'react'
 import {Link} from "react-router-dom"
 import { LuSlidersHorizontal } from "react-icons/lu";
 
-
+import shirt1 from "/src/img/shirt1.jpg"
+import shirt2 from "/src/img/shirt2.webp"
+import shirt3 from "/src/img/shirt3.webp"
+import shirt4 from "/src/img/shirt4.webp"
+import shirt5 from "/src/img/shirt5.jpg"
+import shirt6 from "/src/img/shirt6.avif"
+import shirt7 from "/src/img/shirt7.avif"
+import shirt8 from "/src/img/shirt8.webp"
+import shirt9 from "/src/img/shirt9.webp"
+import shirt10 from "/src/img/shirt10.jpg"
 
 const Shirts = () => {
 
 const shirts_colleaction = [
 {
-image:'/src/img/shirt1.jpg',
+image:shirt1,
 name:"a",
 rate: "Rs.999.00"
 
 },
 {
-  image:'/src/img/shirt2.webp',
+  image:shirt2,
   name:"b",
   rate: "Rs.799.00"
   },
   {
-    image:'/src/img/shirt3.webp',
+    image:shirt3,
     name:"c",
     rate: "Rs.699.00"
     },
     {
-      image:'/src/img/shirt4.webp',
+      image:shirt4,
       name:"plain Formal shirt",
       rate: "Rs.1199.00"
       },
       {
-        image:'/src/img/shirt5.jpg',
+        image:shirt5,
         name:"plain Formal shirt",
         rate: "Rs.650.00"
         },
         {
-          image:'/src/img/shirt6.avif',
+          image:shirt6,
           name:"plain Formal shirt",
           rate: "Rs.500.00"
           },
           {
-            image:'/src/img/shirt7.avif',
+            image:shirt7,
             name:"z",
             rate: "Rs.1499.00"
             },
             {
-              image:'/src/img/shirt8.webp',
+              image:shirt8,
               name:"m",
               rate: "Rs.1299.00"
               },
               {
-                image: '/src/img/shirt9.webp',
+                image: shirt9,
                 name:"plain Formal shirt",
                 rate: "Rs.950.00"
                 },
                 {
-                  image:'/src/img/shirt10.jpg',
+                  image:shirt10,
                   name:"a",
                   rate: "Rs.700.00"
                   },
