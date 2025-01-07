@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import { FaAngleDoubleRight, FaAngleDoubleLeft } from "react-icons/fa";
 import { CiPaperplane } from "react-icons/ci";
 
-
+import shirt from "/src/img/shirt.jpg"
 
 
 
@@ -60,7 +60,7 @@ const images =[
 {     
        id:1,
        name : "Formal-shirt",
-       image : "/src/img/shirt.jpg",
+       image : shirt,
        path : "/Shirts"
 },
 { 
