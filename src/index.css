@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* #slider{
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+#slider::-webkit-scrollbar{
+    display: none;
+} */
+#image-list{
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+#image-list::-webkit-scrollbar{
+    display: none;
+}
+#image-lists{
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+#image-lists::-webkit-scrollbar{
+    display: none;
+}
